@@ -40,7 +40,7 @@ function nextPoint() {
 }
 
 function draw() {
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 10; i++) {
     drawPoint();
     nextPoint();
   }
