@@ -2,7 +2,7 @@ let x = 0;
 let y = 0;
 
 function setup() {
-  createCanvas(1200, 900);
+  createCanvas(900, 1200);
   background(0);
 }
 
