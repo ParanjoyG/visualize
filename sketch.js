@@ -2,7 +2,7 @@ let x = 0;
 let y = 0;
 
 function setup() {
-  createCanvas(1200, 900);
+  createCanvas(400, 400);
   background(0);
 }
 
@@ -40,7 +40,7 @@ function nextPoint() {
 }
 
 function draw() {
-  for (let i = 0; i < 200; i++) {
+  for (let i = 0; i < 500; i++) {
     drawPoint();
     nextPoint();
   }
